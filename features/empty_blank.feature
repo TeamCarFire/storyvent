@@ -1,7 +1,7 @@
-Feature: Submitted story with an empty blank
+Feature: Submitted StoryVent with an empty blank
 
-  in order to ensure empty blanks are not submitted
-  as a Madlib player
+  In order to ensure empty blanks are not submitted
+  as a StoryVent player
   I want to see a warning message for an empty blank
 
   TODO: blank warning message
