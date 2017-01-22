@@ -32,4 +32,12 @@ describe('AppComponent', () => {
     expect(compiled.querySelector('h1').textContent).toContain('StoryVent');
   }));
 
+  it('should have StoryVent blurb', async(() => {
+    let fixture = TestBed.createComponent(AppComponent);
+    fixture.detectChanges();
+    let compiled = fixture.debugElement.nativeElement;
+    expect(compiled.querySelector('#storyvent-blurb').textContent).toContain('Welcome to StoryVent. Please select a story from the list below.');
+  }));
+
+
 });

@@ -7,4 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'StoryVent';
+  blurb = "Welcome to StoryVent. Please select a story from the list below.";
 }
